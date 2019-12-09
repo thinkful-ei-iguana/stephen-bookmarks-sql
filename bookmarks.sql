@@ -8,7 +8,7 @@ create table bookmarks (
   descr text not null,
   web_url text not null,
   rating INTEGER not null
-    check(rating > 0 and rating <= 5),
+    check(rating > 0 and rating <= 5)
 );
 
 -- insert some test data
